@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+</head>
+<body class="font : font-jost">
+   <div class="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-300 relative">
+   <nav class="w-full fixed top-0 font-extrabold bg-white">
+        <div class="container mx-auto py-5 flex justify-between">
+            <div class="flex item-center">
+                <h1 class="flex items-center">My Portofolio</h1>
+            </div>
+            <div class="font-normal">
+                <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                    <li class="hover:text-gray-500">
+                        <a href="#home">Homepage</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">Education</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#prog">Programming</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">Hobbies</a>
+                    </li>
+               </ul>
+            </div>
+            <div id="navmenu" class="space-y-1 cursor-pointer item-center z-20">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+            <ul id="menu" class="hidden bg-indigo-700 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                <li>
+                    <a href="#home">Homepage</a>
+                </li>
+                <li>
+                    <a href="#">Education</a>
+                </li>
+                <li>
+                    <a href="#prog">Programming</a>
+                </li>
+                <li>
+                    <a href="#">Hobbies</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        <img id="home" class="absolute bottom-2 right-0 lg:left-0 mx-auto h-5/6 object-cover rounded-xl" src="./profile.png" alt="">
+
+        <div class="absolute top-1/3 bottom-2/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
+            <span>My</span>
+            <p id="text" class="text-red-500"> Portofolio</p>
+        </div>
+<div
+        class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-15 bottom-12 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3"
+      >
+        <h1 class="text-4xl font-bold text-indigo-500">Hi, I'm Marcel</h1>
+        <p class="text-gray-400">
+            Hello my name is Marcellinus Ganesia Luviandanu. You can call me Marcel. I am 18 years old and I am currently studying in Binus Univesity International. I was born in Bandung and I spent 9 years living there before i moved to BSD. Now i live in BSD with my family. For more info about me you could see that down below.
+        </p>
+        </div>
+    </div>
+    </div>
+    <div id="about" class="px-10 dark:bg-slate-900">
+        <div
+          class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
+        >
+          <!-- left -->
+          <div class="relative">
+            <img
+              class="h-1/4 absolute top-0 left-0 -z-10"
+              src="./img/dots.png"
+              alt=""
+            />
+            <div class="h-full rounded-full overflow-hidden">
+              <img src="./img/portrait.png" alt="" />
+            </div>
+          </div>
+          <!-- right -->
+          <div class="my-auto flex flex-col gap-3">
+            <h1 id="prog" class="text-indigo-600 font-bold">PROGRAMMING</h1>
+            <p class="text-gray-400">
+              Since I'm a student here are some programming languages that i have learn and my mastery over it.
+            </p>
+            <h2 class="text-gray-400 font-medium">HTML</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+              <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+            <h2 class="text-gray-400 font-medium">Javascript</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+              <div class="w-1/6 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+            <h2 class="text-gray-400 font-medium">CSS</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+              <div class="w-3/6 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+          </div>
+        </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
